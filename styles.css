@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+title{
+    text-align: center;
+}
+#title{
+    font-size: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+    
+
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 15px 30px;
+  padding:8px;
+  background-image:linear-gradient(
+    115deg,
+    rgba(23, 179, 226, 0.8),
+    rgba(183, 241, 209, 0.7)),
+    url(https://miro.medium.com/max/900/0*9ODwJf7NmIrlluSS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-size: 50;
+    font-family:'Times New Roman', Times, serif' 
+}
+p{
+    font-size: 1.125rem;
+}
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+input[type="text"],
+input[type="number"],
+select,p{
+    width:100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    margin:10px;
+
+}
+#value1{
+    width:100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    margin:10px;
+
+} 
+     
+.submit {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(253, 25, 17);
+    color:#080808;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ input[type="submit"]:hover
+ {
+     background-color:blue;
+ }
+ h1,h3{
+     text-align: center;
+ }
+ 
+ form {
+    background: var(--color-darkblue-alpha);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+  }
+  
